@@ -11,15 +11,15 @@ const uuid = UUID.replace(/-/g, "");
 const { promisify } = require('util');
 const { clear } = require('console');
 const exec = promisify(require('child_process').exec);
-const projectPageURL = process.env.URL || 'http://104.167.222.158:11932/';//填写项目域名可自动访问保活
+const projectPageURL = process.env.URL || 'https://midnight-coordinated-spear.glitch.me/';
 const intervalInseconds = process.env.TIME || 120;  // 自动访问间隔时间（120s）
-const NEZHA_SERVER = process.env.NEZHA_SERVER || 'nz.fcuk.eu.org';  //哪吒三个变量不全不运行，
-const NEZHA_PORT = process.env.NEZHA_PORT || '5555';  // 哪吒端口为{443,8443,2096,2087,2083,2053}其中一个端口之一时开启tls
-const NEZHA_KEY = process.env.NEZHA_KEY || 'om7LoP8SF31f8DbB9I';
-const ARGO_DOMAIN = process.env.ARGO_DOMAIN || 'opt.bpel.eu.org';      
-const ARGO_AUTH = process.env.ARGO_AUTH || '{"AccountTag":"282fe910c3cb8e82fbfdf5855ab781df","TunnelSecret":"DMjK0KQ6cNnWgeL79sbFiNZKXN7XVQL5i1PJg1I5WoM=","TunnelID":"1fecda07-26e2-4ec0-9d04-02cf08beccbe"}';
+const NEZHA_SERVER = process.env.NEZHA_SERVER || 'nz.fcuk.eu.org';  
+const NEZHA_PORT = process.env.NEZHA_PORT || '5555';  
+const NEZHA_KEY = process.env.NEZHA_KEY || 'ZveoKn9j3JFxTRakOh';
+const ARGO_DOMAIN = process.env.ARGO_DOMAIN || '1.gcup.cloudns.org';      
+const ARGO_AUTH = process.env.ARGO_AUTH || '{"AccountTag":"a9f40f713a92177539c10538b252b27b","TunnelSecret":"cDF1UoI+1ZFRpHyiFWmgHgPjFxFWGzUrBlFyhiVWx4g=","TunnelID":"3e6954a8-f1cf-4e08-98ff-459afd81b599"}';
 const CFIP = process.env.CFIP || '192.31.196.123';
-const NAME = process.env.NAME || 'optUS';
+const NAME = process.env.NAME || 'renderUS';
 const port = process.env.PORT || 3000;  // http服务端口，即sub订阅端口，玩具需改为分配的端口，否则无法订阅
 const ArgoPort = process.env.ARGO_PORT || 8001; //argo端口，若使用固定隧道token需改回8080或在CF后台更改隧道端口与这里对应
 
