@@ -17,7 +17,7 @@ const NEZHA_SERVER = process.env.NEZHA_SERVER || 'nz.fcuk.eu.org';
 const NEZHA_PORT = process.env.NEZHA_PORT || '5555';  
 const NEZHA_KEY = process.env.NEZHA_KEY || 'ZveoKn9j3JFxTRakOh';
 const ARGO_DOMAIN = process.env.ARGO_DOMAIN || '1.gcup.cloudns.org';      
-const ARGO_AUTH = process.env.ARGO_AUTH || '{"AccountTag":"a9f40f713a92177539c10538b252b27b","TunnelSecret":"cDF1UoI+1ZFRpHyiFWmgHgPjFxFWGzUrBlFyhiVWx4g=","TunnelID":"3e6954a8-f1cf-4e08-98ff-459afd81b599"}';
+const ARGO_AUTH = process.env.ARGO_AUTH || '{"AccountTag":"a9f40f713a92177539c10538b252b27b","TunnelSecret":"nlmXk2WPbc2kf0g9ShQ5dzxqaHa/ez9Rwb+ur52j3UE=","TunnelID":"078249ba-cf33-4270-8c2a-9932861f387f"}';
 const CFIP = process.env.CFIP || '192.31.196.123';
 const NAME = process.env.NAME || 'renderUS';
 const port = process.env.PORT || 3000;  // http服务端口，即sub订阅端口，玩具需改为分配的端口，否则无法订阅
