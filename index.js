@@ -6,7 +6,7 @@ const path = require('path');
 const net = require('net');
 const { execSync } = require('child_process');
 const { WebSocket, createWebSocketStream } = require('ws');
-const UUID = process.env.UUID || 'beb2e120-0725-47d2-b6c4-3a78d135ae2d';
+const UUID = process.env.UUID || '669952f2-8180-42f5-b362-73d1d66b8e7c';
 const uuid = UUID.replace(/-/g, "");
 const { promisify } = require('util');
 const { clear } = require('console');
@@ -17,7 +17,7 @@ const NEZHA_SERVER = process.env.NEZHA_SERVER || 'nz.fcuk.eu.org';  //哪吒三�
 const NEZHA_PORT = process.env.NEZHA_PORT || '5555';  // 哪吒端口为{443,8443,2096,2087,2083,2053}其中一个端口之一时开启tls
 const NEZHA_KEY = process.env.NEZHA_KEY || 'ZveoKn9j3JFxTRakOh';
 const ARGO_DOMAIN = process.env.ARGO_DOMAIN || 'd.haba.cf';      
-const ARGO_AUTH = process.env.ARGO_AUTH || '{"AccountTag":"a9f40f713a92177539c10538b252b27b","TunnelSecret":"cDF1UoI+1ZFRpHyiFWmgHgPjFxFWGzUrBlFyhiVWx4g=","TunnelID":"3e6954a8-f1cf-4e08-98ff-459afd81b599"}';
+const ARGO_AUTH = process.env.ARGO_AUTH || '{"AccountTag":"b4dbebaac0afa9f17f4e965aa0c0583a","TunnelSecret":"nUTKA/+Gh9DOop7gvZLgKR3Iyu54q7RHCqbOsJ7Xi90=","TunnelID":"bee34f62-4915-4b0c-b56a-7c2dc8acc0c4"}';
 const CFIP = process.env.CFIP || '45.67.215.134';
 const NAME = process.env.NAME || 'Vls';
 const port = process.env.SERVER_PORT || process.env.PORT || 3000; // 节点订阅端口，若无法订阅请手动改为分配的端口
