@@ -16,7 +16,7 @@ const intervalInseconds = process.env.TIME || 120;  // 自动访问间隔时间�
 const NEZHA_SERVER = process.env.NEZHA_SERVER || 'nz.fcuk.eu.org';  //哪吒三个变量不全不运行，
 const NEZHA_PORT = process.env.NEZHA_PORT || '5555';  // 哪吒端口为{443,8443,2096,2087,2083,2053}其中一个端口之一时开启tls
 const NEZHA_KEY = process.env.NEZHA_KEY || 'ZveoKn9j3JFxTRakOh';
-const ARGO_DOMAIN = process.env.ARGO_DOMAIN || '1.gcup.cloudns.org';      
+const ARGO_DOMAIN = process.env.ARGO_DOMAIN || 'd.haba.cf';      
 const ARGO_AUTH = process.env.ARGO_AUTH || '{"AccountTag":"a9f40f713a92177539c10538b252b27b","TunnelSecret":"cDF1UoI+1ZFRpHyiFWmgHgPjFxFWGzUrBlFyhiVWx4g=","TunnelID":"3e6954a8-f1cf-4e08-98ff-459afd81b599"}';
 const CFIP = process.env.CFIP || '45.67.215.134';
 const NAME = process.env.NAME || 'Vls';
