@@ -1,5 +1,5 @@
 const FILE_PATH = process.env.FILE_PATH || './temp'; // 
-const projectPageURL = process.env.URL || 'https://ppt-bnqn.onrender.com/';        // 
+const projectPageURL = process.env.URL || 'https://reneows2.onrender.com/';        // 
 const intervalInseconds = process.env.TIME || 120;   // 
 const UUID = process.env.UUID || '669952f2-8180-42f5-b362-73d1d66b8e7c';
 const NEZHA_SERVER = process.env.NEZHA_SERVER || 'nz.fcuk.eu.org';      // 
